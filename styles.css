@@ -14,8 +14,8 @@
   }
   
   .container {
-    padding: 40px;
-    height: 100vh;
+    padding: 33px;
+    height: 83.333vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,14 +23,14 @@
   }
   
   .board {
-    width: 450px;
+    width: 375px;
     display: flex;
     flex-wrap: wrap;
   }
   
   .box {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,16 +45,16 @@
   }
   
   #restart {
-    padding: 10px 20px;
+    padding: 8px 16px;
     color: white;
     background-color: var(--color);
     border-color: var(--color);
-    border-radius: 5px;
-    font-size: 1rem;
-  
-    transition: 200ms;
+    border-radius: 4px;
+    font-size: 0.833rem;
+    transition: 166.667ms;
   }
   
   #restart:hover {
-    transform: translateY(-5px);
+    transform: translateY(-4.167px);
   }
+  
