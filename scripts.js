@@ -23,7 +23,7 @@ function showMole() {
 function start() {
   score = 0;
   currentTime = 10;
-  moleTimer = setInterval(showMole, 300);
+  moleTimer = setInterval(showMole, 700);
   timeTimer = setInterval(countTime, 1000);
 
   timeCounter.innerText = currentTime;
